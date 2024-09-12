@@ -8,6 +8,8 @@ import datetime
 # load the environment variables
 dotenv.load_dotenv()
 
+print("Hi! Testing Git Fork")
+
 year = int(os.getenv('YEAR', 2024))
 filename = os.getenv('FILENAME', "crawled-page-{year}.html").format(year=year)
 data = []
